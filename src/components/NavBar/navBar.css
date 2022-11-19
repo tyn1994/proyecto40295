@@ -1,0 +1,22 @@
+.cssNavBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.cssOrderListNavbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.cssLi {
+    list-style-type: none; 
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cssFullWidth {
+    width: 100%;
+}
