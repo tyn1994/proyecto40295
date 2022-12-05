@@ -1,21 +1,20 @@
 import CartWidget from "../CartWidget/CartWidget";
 import "./navBar.css";
+import {Link} from "react-router-dom"
 
 function NavBar() {
   return (
     <div className="cssNavBar">
-        <a href="/">
-            <img src="/logo192.png" alt="Logo de tienda" width="50px" height="50px"/>
-        </a>
-
-        {/* https://pokeapi.co/api/v2/type/ */}
+        <Link to="/">
+            <img src="/logo_react.png" alt="Logo de tienda" width="50px" height="50px"/>
+        </Link>
 
         <ul className="cssOrderListNavbar">
-            <li className="cssLi"><a href="/">Normal</a></li>
-            <li className="cssLi"><a href="/">Lucha</a></li>
-            <li className="cssLi"><a href="/">Volador</a></li>
-            <li className="cssLi"><a href="/">Veneno</a></li>
-            <li className="cssLi"><a href="/">Tierra</a></li>
+            <li className="cssLi"><Link to="/types/1">Normal</Link></li>
+            <li className="cssLi"><Link to="/types/2">Lucha</Link></li>
+            <li className="cssLi"><Link to="/types/3">Volador</Link></li>
+            <li className="cssLi"><Link to="/types/4">Veneno</Link></li>
+            <li className="cssLi"><Link to="/types/5">Tierra</Link></li>
         </ul>
 
         <div className="cssFullWidth"></div>

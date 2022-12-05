@@ -1,0 +1,23 @@
+.cardview {
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alignRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alignColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
